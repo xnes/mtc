@@ -1,0 +1,177 @@
+{
+    "id": "465620872f139cb1",
+    "slug": null,
+    "trashed": false,
+    "description": "",
+    "likes": 0,
+    "publish_level": "shared",
+    "forks": 0,
+    "fork_of": null,
+    "has_importers": false,
+    "update_time": "2022-01-27T18:40:43.342Z",
+    "first_public_version": null,
+    "paused_version": null,
+    "publish_time": "2022-01-27T18:40:43.342Z",
+    "publish_version": 239,
+    "latest_version": 239,
+    "thumbnail": "6f6273ba539b4192754be8b7c585453bb91f9c3801e55e2bb64feb6357584d95",
+    "default_thumbnail": "6f6273ba539b4192754be8b7c585453bb91f9c3801e55e2bb64feb6357584d95",
+    "roles": [],
+    "sharing": null,
+    "owner": {
+        "id": "ad0f003da1c0bec1",
+        "github_login": null,
+        "avatar_url": "https://avatars.observableusercontent.com/avatar/39b1fca67d55a535bc44e85ad3b1b8f14ff3bb264934f6774f29cc3b96e8c356",
+        "login": "ad0f003da1c0bec1",
+        "name": "史Rodrigo",
+        "bio": "",
+        "home_url": "",
+        "type": "individual",
+        "tier": "pro"
+    },
+    "creator": {
+        "id": "ad0f003da1c0bec1",
+        "github_login": null,
+        "avatar_url": "https://avatars.observableusercontent.com/avatar/39b1fca67d55a535bc44e85ad3b1b8f14ff3bb264934f6774f29cc3b96e8c356",
+        "login": "ad0f003da1c0bec1",
+        "name": "史Rodrigo",
+        "bio": "",
+        "home_url": "",
+        "tier": "pro"
+    },
+    "authors": [
+        {
+            "id": "ad0f003da1c0bec1",
+            "avatar_url": "https://avatars.observableusercontent.com/avatar/39b1fca67d55a535bc44e85ad3b1b8f14ff3bb264934f6774f29cc3b96e8c356",
+            "name": "史Rodrigo",
+            "login": "ad0f003da1c0bec1",
+            "bio": "",
+            "home_url": "",
+            "github_login": null,
+            "tier": "pro",
+            "approved": true,
+            "description": ""
+        }
+    ],
+    "collections": [],
+    "files": [
+        {
+            "id": "b440f86574070d3bc522a3421063e85dcaebadb57875956a5520db7eb89dfe5111ab690fa8167a8044c7c2a6f8e41cd00e53fe8b3fa9f73bae2aaa0b3dda6777",
+            "url": "https://static.observableusercontent.com/files/b440f86574070d3bc522a3421063e85dcaebadb57875956a5520db7eb89dfe5111ab690fa8167a8044c7c2a6f8e41cd00e53fe8b3fa9f73bae2aaa0b3dda6777",
+            "download_url": "https://static.observableusercontent.com/files/b440f86574070d3bc522a3421063e85dcaebadb57875956a5520db7eb89dfe5111ab690fa8167a8044c7c2a6f8e41cd00e53fe8b3fa9f73bae2aaa0b3dda6777?response-content-disposition=attachment%3Bfilename*%3DUTF-8%27%27resumo-balance.png",
+            "name": "resumo-balance.png",
+            "create_time": "2022-01-27T14:40:09.015Z",
+            "status": "public",
+            "size": 371631,
+            "mime_type": "image/png",
+            "content_encoding": null
+        }
+    ],
+    "comments": [],
+    "commenting_lock": null,
+    "suggestion_from": null,
+    "suggestions_to": [],
+    "version": 239,
+    "title": "Resumo de Balance",
+    "license": null,
+    "copyright": "",
+    "nodes": [
+        {
+            "id": 168,
+            "value": "# Resumo de Balance",
+            "pinned": false,
+            "mode": "md",
+            "data": null,
+            "name": ""
+        },
+        {
+            "id": 0,
+            "value": "# Yin da mão",
+            "pinned": false,
+            "mode": "md",
+            "data": null,
+            "name": ""
+        },
+        {
+            "id": 140,
+            "value": "dot`\ndigraph shouyin\n{\n    bgcolor = transparent\n    node[style=filled,fixedsize=true, shape=circle, fontname=\"verdana\" ]   \n    rankdir=TD;\n    #Yin da mão    \n    subgraph cluster_P{ \n        label=\"Pulmão 手太阴\"\n        bgcolor = \"#F7F7F7CC\" #Grey87\n        P->pBp [label=\"1\"];\n        P->pB [label=\" 2|4\" color=\"black:#F7F7F7CC:black\"];\n        P->Ig [label=\"3\"];\n        P->pF [label=\"5\"];\n        {rank=same; P; Ig}\n        pBp [fillcolor=gold label=Bp]\n        pF [fillcolor=limegreen label=F]\n        pB [fillcolor=black fontcolor=white label=R]\n        P [fillcolor=white]\n        Ig [fillcolor=white]\n    }   \n    \n    subgraph cluster_C{    \n        label=\"Coração 手少阴\"\n        bgcolor= \"#FFB6C1CC\"#lightpink\n        C->Id [label=\"3\"];\n        C->cR [label=\"1\"]\n        C->cVb [label=\" 2|4\" color=\"black:#FFB6C1CC:black\"]\n        C->cBp [label=\"5\"]\n        {rank=same; C; Id} \n        cR [fillcolor=black fontcolor=white label=R]\n        cVb [fillcolor=limegreen label=Vb]\n        cBp [fillcolor=gold label=Bp]\n        C [fillcolor=orangered]\n        Id [fillcolor=orangered]\n    }\n    \n    subgraph cluster_Pc{    \n        label=\"Pericárdio 手厥阴\"\n        bgcolor=\"#FFA07ACC\" #lightsalmon\n        Pc->Ta [label=\"3\"];\n        Pc->pcF [label=\"1\"]\n        Pc->pcE [label=\" 2|4\" color=\"black:#FFA07ACC:black\"]\n        Pc->pcR [label=\"5\"]\n        {rank=same; Pc; Ta} \n        pcF [fillcolor=limegreen label=F]\n        pcE [fillcolor=gold label=E]\n        pcR [fillcolor=black fontcolor=white label=R]\n        Pc [fillcolor=orangered]\n        Ta [fillcolor=orangered]\n    }\n}\n`",
+            "pinned": false,
+            "mode": "js",
+            "data": null,
+            "name": null
+        },
+        {
+            "id": 37,
+            "value": "# Yang da Mão",
+            "pinned": false,
+            "mode": "md",
+            "data": null,
+            "name": ""
+        },
+        {
+            "id": 147,
+            "value": "dot`\n\ndigraph shouyang\n{\n    node[style=filled,fixedsize=true, shape=circle, fontname=\"verdana\" ]\n    rankdir=TD;\n    bgcolor = transparent   \n    #Yang da mão\n    subgraph cluster_Ig{    \n        label=\"Intestino Grosso 手阳明\"\n        bgcolor = \"#F7F7F7CC\" #Grey87\n        Ig->P [label=\"3\"];\n        Ig->igF [label=\" 2\"]\n        Ig->igR [label=\"4\"]\n        Ig->igE [label=\"1|5\" color=\"black:#F7F7F7CC:black\"]\n        {rank=same; Ig; P} \n        P [fillcolor=white]\n        Ig [fillcolor=white]\n        igE [fillcolor=gold label=E]\n        igF [fillcolor=limegreen label=F]\n        igR [fillcolor=black fontcolor=white label=R]\n    }\n\n    subgraph cluster_Id{    \n        label=\"Intestino Delgado 手太阳\"\n        bgcolor=\"#FFB6C1CC\"#lightpink\n        Id->C [label=\"3\"];\n        Id->idBp [label=\" 2\"]\n        Id->idF [label=\"4\"]\n        Id->idB [label=\"1|5\"  color=\"black:#FFB6C1CC:black\"]\n        {rank=same; Id; C} \n        idB [fillcolor=black fontcolor=white label=B]\n        idF [fillcolor=limegreen label=F]\n        idBp [fillcolor=gold label=Bp]\n        C [fillcolor=orangered]\n        Id [fillcolor=orangered]\n    }\n\n\n    subgraph cluster_Ta{    \n        label=\"Triplo Aquecedor 手少阳\"\n        bgcolor=\"#FFA07ACC\" #lightsalmon\n        Ta->Pc [label=\"3\"];\n        Ta->taR [label=\" 2\"]\n        Ta->taBp [label=\"4\"]\n        Ta->taVb [label=\"1|5\" color=\"black:#FFA07ACC:black\"]\n        {rank=same; Ta; Pc} \n        taVb [fillcolor=limegreen label=Vb]\n        taBp [fillcolor=gold label=Bp]\n        taR [fillcolor=black fontcolor=white label=R]\n        Pc [fillcolor=orangered]\n        Ta [fillcolor=orangered]\n    }\n    \n}\n`\n",
+            "pinned": false,
+            "mode": "js",
+            "data": null,
+            "name": null
+        },
+        {
+            "id": 63,
+            "value": "# Yin do Pé",
+            "pinned": false,
+            "mode": "md",
+            "data": null,
+            "name": ""
+        },
+        {
+            "id": 162,
+            "value": "dot`\n\ndigraph zuyin\n{\n    node[style=filled,fixedsize=true, shape=circle, fontname=\"verdana\" ]\n    rankdir=BT;\n    bgcolor = transparent \n    #Yin do pé\n    subgraph cluster_Bp{    \n        labelloc=b\n        label=\"Baço Pâncreas 足太阴\"\n        bgcolor = \"#FFF68FCC\" #khaki1\n        Bp->E [label=\"3\"];\n        Bp->bpId [label=\"2\"]\n        Bp->bpTa [label=\" 4\"]\n        Bp->bpP [label=\"1\"]\n        Bp->bpC [label=\"5\"]\n        {rank=same; Bp; E} \n        E,Bp [fillcolor=Gold]\n        bpTa [fillcolor=orangered label=Ta]\n        bpId [fillcolor=red label=Id]\n        bpC [fillcolor=red label=C]\n        bpP [fillcolor=white label=P]\n    }\n    \n    subgraph cluster_R{ \n        labelloc=b\n        label=\"Rim 足少阴\"\n        bgcolor = \"#7F7F7FCC\" #grey50\n        R->B [label=\"3\"];\n        R->rTa [label=\"2\"]\n        R->rIg [label=\" 4\"]\n        R->rC [label=\"1\"]\n        R->rPc [label=\"5\"]\n        {rank=same; B; R} \n        B,R [fillcolor=black fontcolor=white]\n        rTa [fillcolor=orangered label=Ta]\n        rIg [fillcolor=white label=Ig]\n        rC [fillcolor=red label=C]\n        rPc [fillcolor=orangered label=Pc]\n    }    \n\n    subgraph cluster_F{   \n        labelloc=b\n        label=\"Fígado 足厥阴\"\n        bgcolor = \"#98FB98CC\" #palegreen\n        F->Vb [label=\"3\"];\n        F->fIg [label=\"2\"]\n        F->fId [label=\" 4\"]\n        F->fPc [label=\"1\"]\n        F->fP  [label=\"5\"]\n        {rank=same; F; Vb} \n        Vb,F [fillcolor=limegreen]\n        fP [fillcolor=white label=P]\n        fIg [fillcolor=white label=Ig]\n        fId [fillcolor=red label=Id]\n        fPc [fillcolor=orangered label=Pc]\n    }\n    \n}\n`",
+            "pinned": false,
+            "mode": "js",
+            "data": null,
+            "name": null
+        },
+        {
+            "id": 98,
+            "value": "# Yang do Pé",
+            "pinned": false,
+            "mode": "md",
+            "data": null,
+            "name": ""
+        },
+        {
+            "id": 153,
+            "value": "dot`\ndigraph zuyang\n{\n    node[style=filled,fixedsize=true, shape=circle, fontname=\"verdana\" ]\n    rankdir=BT;\n    bgcolor = transparent \n    #Yang do pé    \n    subgraph cluster_E{   \n        labelloc=b\n        label=\"Estômago 足阳明\"\n        bgcolor = \"#FFF68FCC\" #khaki1\n        E->Bp [label=\"3\"];\n        E->ePc [label=\"  2|4\" color=\"black:#FFF68FCC:black\"]\n        E->eIg [label=\" 1|5\" color=\"black:#FFF68FCC:black\"]\n        {rank=same; E; Bp} \n        E,Bp [fillcolor=Gold]\n        ePc [fillcolor=orangered label=Pc]\n        eIg [fillcolor=white label=Ig]\n    }\n\n    subgraph cluster_B{   \n        labelloc=b\n        label=\"Bexiga 足太阳\"\n        bgcolor = \"#7F7F7FCC\" #grey50\n        B->R [label=\"3\"];\n        B->bP [label=\"  2|4\" color=\"black:#7F7F7FCC:black\"]\n        B->bId [label=\" 1|5\" color=\"black:#7F7F7FCC:black\"]\n        {rank=same; B; R} \n        B,R [fillcolor=black fontcolor=white]\n        bP [fillcolor=white label=P]\n        bId [fillcolor=red label=Id]\n    }\n    \n    subgraph cluster_Vb{   \n        labelloc=b\n        label=\"Vesícula Biliar 足少阳\"\n        bgcolor = \"#98FB98CC\" #palegreen\n        Vb->F [label=\"3\"];\n        Vb->vbC [label=\"  2|4\" color=\"black:#98FB98CC:black\"]\n        Vb->vbTa [label=\" 1|5\" color=\"black:#98FB98CC:black\"]\n        {rank=same; Vb; F} \n        Vb,F [fillcolor=limegreen]\n        vbC [fillcolor=red label=C]\n        vbTa [fillcolor=orangered label=Ta]\n    }\n    \n}\n`",
+            "pinned": false,
+            "mode": "js",
+            "data": null,
+            "name": null
+        },
+        {
+            "id": 114,
+            "value": "# Resumo dos Sistemas\n1. Meridianos com mesmo nome (mesmo nível energético): Contralateral\n2. Pareamento de Yin e Yang: Dos dois lados\n3. Acoplados: Contralateral\n4. Oposto de hora: Mesmo lado ou Contralateral\n5. Vizinho de hora (Zang com Zang / Fu com Fu): Contralateral",
+            "pinned": false,
+            "mode": "md",
+            "data": null,
+            "name": ""
+        },
+        {
+            "id": 134,
+            "value": "dot` digraph ds\n{\n    node[style=filled,fixedsize=false, shape=rectangle, fontname=\"verdana\" ]\n   bgcolor = transparent\n    rankdir=TD;\n    #Yin da mão    \n    subgraph cluster_P{ \n        ZangFu->\"Mesmo\\nnível\" [label=\"1\"];\n        ZangFu->Acoplado [label=\"3\"];\n        ZangFu->\"Yin por\\nYang\" [label=\" 2\"];\n        ZangFu->\"Oposto\\nde\\nhora\" [label=\"4\"]\n        ZangFu->\"Vizinho\\nde\\nhora\" [label=\"5\"];\n        {rank=same; ZangFu; Acoplado}\n    }   \n}\n`",
+            "pinned": false,
+            "mode": "js",
+            "data": null,
+            "name": null
+        },
+        {
+            "id": 203,
+            "value": "![resumo-balance.png](${await FileAttachment(\"resumo-balance.png\").url()})",
+            "pinned": false,
+            "mode": "md",
+            "data": null,
+            "name": ""
+        }
+    ],
+    "resolutions": []
+}
